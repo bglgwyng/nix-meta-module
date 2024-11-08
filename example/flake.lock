@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "meta-module": {
+      "locked": {
+        "lastModified": 1731055168,
+        "narHash": "sha256-JCH4ilMU6mswX7lhEK6goZx/zzlg1NPtGj4QqOSBcHo=",
+        "owner": "bglgwyng",
+        "repo": "nix-meta-module",
+        "rev": "53e60e30f6a43ec8410ebc15ad8eff6dcc34cc20",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bglgwyng",
+        "repo": "nix-meta-module",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1731054011,
+        "narHash": "sha256-kwIRmEqRp3HsI/fSRwLldvAlqF8kOdFjoT92TAZBORE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7150b43a80469432abe828322ac49f0025c44ed8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "meta-module": "meta-module",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
